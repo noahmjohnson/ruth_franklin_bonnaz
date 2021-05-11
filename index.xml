@@ -19,6 +19,137 @@
         
         <guid>https://www.ruthfranklinbonnaz.com/posts/bonnaz/</guid>
         <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/bonnaz/ -&lt;p&gt;TODO&lt;/p&gt;
+&lt;h3 id=&#34;pdf-downloadhttpsdrivegooglecomfiled1uflns98t88k-a5mt3p4eydiy0lijpkiwviewuspsharing&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1UFLNS98T88k-a5mt3p4EYdiy0LIjPkIw/view?usp=sharing&#34;&gt;PDF Download&lt;/a&gt;&lt;/h3&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.ruthfranklinbonnaz.com/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+&lt;/style&gt;
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/ChainStitch_Reduced.pdf&#39;;
+var hidePaginator = &#34;&#34;;
+var pageScale = &#34;1.7&#34;;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = true,
+    pageNumPending = null,
+    scale = pageScale,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;);
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator) {
+  document.getElementById(&#34;paginator&#34;).style.display = &#39;none&#39;;
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;
+
 - https://www.ruthfranklinbonnaz.com/posts/bonnaz/ - Artistic Touch Publications, Ruth E. Franklin</description>
         </item>
     
@@ -30,11 +161,140 @@
         <pubDate>Sat, 09 May 2020 11:25:05 -0400</pubDate>
         
         <guid>https://www.ruthfranklinbonnaz.com/posts/educationalvhs/</guid>
-        <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/educationalvhs/ -&lt;p&gt;A full transcript is also&lt;/p&gt;
-&lt;p&gt;The full 2hr instructional video can be found in it&amp;rsquo;s original quality below.&lt;/p&gt;
+        <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/educationalvhs/ -&lt;p&gt;The full 2hr instructional video can be found in it&amp;rsquo;s original quality below. It&amp;rsquo;s accompanying transcript is available for download as well.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=D8u-TQ8Io4I&#34; title=&#34;Artistic Touch School of Bonnaz Embroidery&#34;&gt;&lt;img src=&#34;https://yt-embed.herokuapp.com/embed?v=D8u-TQ8Io4I&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;A full transcript of the video can be found below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.ruthfranklinbonnaz.com/images/vhscloseup.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pdf-downloadhttpsdrivegooglecomfiled1q6ihrcdzbtqyrk5ivzkdeskfl-vdc6gxviewuspsharing&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q6iHRcdZbTQyrk5iVZKdESkfl-vDC6Gx/view?usp=sharing&#34;&gt;PDF Download&lt;/a&gt;&lt;/h3&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.ruthfranklinbonnaz.com/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+&lt;/style&gt;
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/ArtisticTouch_Reduced.pdf&#39;;
+var hidePaginator = &#34;&#34;;
+var pageScale = &#34;1.1&#34;;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = true,
+    pageNumPending = null,
+    scale = pageScale,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;);
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator) {
+  document.getElementById(&#34;paginator&#34;).style.display = &#39;none&#39;;
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;
+
 - https://www.ruthfranklinbonnaz.com/posts/educationalvhs/ - Artistic Touch Publications, Ruth E. Franklin</description>
         </item>
     
@@ -47,7 +307,137 @@
         
         <guid>https://www.ruthfranklinbonnaz.com/posts/lettering/</guid>
         <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/lettering/ -&lt;h1 id=&#34;heading-1&#34;&gt;Heading 1&lt;/h1&gt;
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;h3 id=&#34;pdf-downloadhttpsdrivegooglecomfiled1uz8v_elr-uiykajewi96rinwfipjox2aviewuspsharing&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1uz8v_elR-UiykAJewi96rINWfipJox2A/view?usp=sharing&#34;&gt;PDF Download&lt;/a&gt;&lt;/h3&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.ruthfranklinbonnaz.com/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+&lt;/style&gt;
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/LetteringBook_Reduced.pdf&#39;;
+var hidePaginator = &#34;&#34;;
+var pageScale = &#34;.9&#34;;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = true,
+    pageNumPending = null,
+    scale = pageScale,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;);
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator) {
+  document.getElementById(&#34;paginator&#34;).style.display = &#39;none&#39;;
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;
+
 - https://www.ruthfranklinbonnaz.com/posts/lettering/ - Artistic Touch Publications, Ruth E. Franklin</description>
         </item>
     
@@ -59,9 +449,137 @@
         <pubDate>Thu, 07 May 2020 11:25:05 -0400</pubDate>
         
         <guid>https://www.ruthfranklinbonnaz.com/posts/monogramdesign/</guid>
-        <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/monogramdesign/ -&lt;p&gt;TODO&lt;/p&gt;
-&lt;h2 id=&#34;the-first-step-triage&#34;&gt;The First Step: Triage&lt;/h2&gt;
-&lt;p&gt;TODO&lt;/p&gt;
+        <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/monogramdesign/ -&lt;h3 id=&#34;pdf-downloadhttpsdrivegooglecomfiled1wtmmcemn5ezler4ik3o-ualxnszvjxg5viewuspsharing&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1WtMmcEmN5EzLER4ik3O-UALxnSZvjxG5/view?usp=sharing&#34;&gt;PDF Download&lt;/a&gt;&lt;/h3&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://www.ruthfranklinbonnaz.com/js/pdf-js/build/pdf.js&#34;&gt;&lt;/script&gt;
+&lt;style&gt;
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+&lt;/style&gt;
+
+&lt;div id=&#34;paginator&#34;&gt;
+    &lt;button id=&#34;prev&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;next&#34;&gt;Next&lt;/button&gt;
+    &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;Page: &lt;span id=&#34;page_num&#34;&gt;&lt;/span&gt; / &lt;span id=&#34;page_count&#34;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div id=&#34;embed-pdf-container&#34;&gt;
+    &lt;canvas id=&#34;the-canvas&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+window.onload = function() {
+
+
+var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/MonogramDesign_Reduced.pdf&#39;;
+var hidePaginator = &#34;&#34;;
+var pageScale = &#34;.9&#34;;
+
+
+var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = true,
+    pageNumPending = null,
+    scale = pageScale,
+    canvas = document.getElementById(&#39;the-canvas&#39;),
+    ctx = canvas.getContext(&#39;2d&#39;);
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById(&#39;page_num&#39;).textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator) {
+  document.getElementById(&#34;paginator&#34;).style.display = &#39;none&#39;;
+}
+
+
+
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;prev&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById(&#39;next&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById(&#39;page_count&#39;).textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+&lt;/script&gt;
+
 - https://www.ruthfranklinbonnaz.com/posts/monogramdesign/ - Artistic Touch Publications, Ruth E. Franklin</description>
         </item>
     

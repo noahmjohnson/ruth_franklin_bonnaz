@@ -181,6 +181,43 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a>
     <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
 
 
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#pdf-downloadhttpsdrivegooglecomfiled1uflns98t88k-a5mt3p4eydiy0lijpkiwviewuspsharing" onclick="onNavClick(`#pdf-downloadhttpsdrivegooglecomfiled1uflns98t88k-a5mt3p4eydiy0lijpkiwviewuspsharing-nav`)" id="pdf-downloadhttpsdrivegooglecomfiled1uflns98t88k-a5mt3p4eydiy0lijpkiwviewuspsharing-nav">
+									PDF Download
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
 </div>
     
     <div class="pagination">
@@ -244,6 +281,43 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a>
             
             <div class="toc">
 
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+								<ul class="collapse" data-toggle="collapse">
+							
+						
+						
+							<li>
+								<a href="#pdf-downloadhttpsdrivegooglecomfiled1uflns98t88k-a5mt3p4eydiy0lijpkiwviewuspsharing" onclick="onNavClick(`#pdf-downloadhttpsdrivegooglecomfiled1uflns98t88k-a5mt3p4eydiy0lijpkiwviewuspsharing-nav`)" id="pdf-downloadhttpsdrivegooglecomfiled1uflns98t88k-a5mt3p4eydiy0lijpkiwviewuspsharing-nav">
+									PDF Download
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
 
 </div>
             
@@ -342,6 +416,137 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a>
                 <div class="post-body" v-pre>
                 
                     <p>TODO</p>
+<h3 id="pdf-downloadhttpsdrivegooglecomfiled1uflns98t88k-a5mt3p4eydiy0lijpkiwviewuspsharing"><a href="https://drive.google.com/file/d/1UFLNS98T88k-a5mt3p4EYdiy0LIjPkIw/view?usp=sharing">PDF Download</a></h3>
+<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+var url = "https:\/\/www.ruthfranklinbonnaz.com\/" + '\/pdf\/ChainStitch_Reduced.pdf';
+var hidePaginator = "";
+var pageScale = "1.7";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/www.ruthfranklinbonnaz.com\/" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = true,
+    pageNumPending = null,
+    scale = pageScale,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+if (hidePaginator) {
+  document.getElementById("paginator").style.display = 'none';
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+
 
                     
                     <HR width="100%" id="EOF">

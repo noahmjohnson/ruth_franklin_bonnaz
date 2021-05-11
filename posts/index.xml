@@ -14,7 +14,8 @@
       <pubDate>Sun, 10 May 2020 11:25:05 -0400</pubDate>
       
       <guid>https://www.ruthfranklinbonnaz.com/posts/bonnaz/</guid>
-      <description>TODO</description>
+      <description>TODO
+PDF Download #the-canvas {border: 1px solid black;direction: ltr;width: 100%;height: auto;}#paginator{text-align: center;margin-bottom: 10px;}PreviousNext&amp;nbsp; &amp;nbsp;Page:  / window.onload = function() {var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/ChainStitch_Reduced.pdf&#39;;var hidePaginator = &#34;&#34;;var pageScale = &#34;1.7&#34;;var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;var pdfDoc = null,pageNum = 1,pageRendering = true,pageNumPending = null,scale = pageScale,canvas = document.</description>
     </item>
     
     <item>
@@ -23,10 +24,9 @@
       <pubDate>Sat, 09 May 2020 11:25:05 -0400</pubDate>
       
       <guid>https://www.ruthfranklinbonnaz.com/posts/educationalvhs/</guid>
-      <description>A full transcript is also
-The full 2hr instructional video can be found in it&amp;rsquo;s original quality below.
+      <description>The full 2hr instructional video can be found in it&amp;rsquo;s original quality below. It&amp;rsquo;s accompanying transcript is available for download as well.
 
-A full transcript of the video can be found below.</description>
+PDF Download #the-canvas {border: 1px solid black;direction: ltr;width: 100%;height: auto;}#paginator{text-align: center;margin-bottom: 10px;}PreviousNext&amp;nbsp; &amp;nbsp;Page:  / window.onload = function() {var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/ArtisticTouch_Reduced.pdf&#39;;var hidePaginator = &#34;</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@ A full transcript of the video can be found below.</description>
       <pubDate>Fri, 08 May 2020 11:25:05 -0400</pubDate>
       
       <guid>https://www.ruthfranklinbonnaz.com/posts/lettering/</guid>
-      <description>Heading 1 TODO</description>
+      <description>Heading 1 PDF Download #the-canvas {border: 1px solid black;direction: ltr;width: 100%;height: auto;}#paginator{text-align: center;margin-bottom: 10px;}PreviousNext&amp;nbsp; &amp;nbsp;Page:  / window.onload = function() {var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/LetteringBook_Reduced.pdf&#39;;var hidePaginator = &#34;&#34;;var pageScale = &#34;.9&#34;;var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;var pdfDoc = null,pageNum = 1,pageRendering = true,pageNumPending = null,scale = pageScale,canvas = document.</description>
     </item>
     
     <item>
@@ -44,8 +44,7 @@ A full transcript of the video can be found below.</description>
       <pubDate>Thu, 07 May 2020 11:25:05 -0400</pubDate>
       
       <guid>https://www.ruthfranklinbonnaz.com/posts/monogramdesign/</guid>
-      <description>TODO
-The First Step: Triage TODO</description>
+      <description>PDF Download #the-canvas {border: 1px solid black;direction: ltr;width: 100%;height: auto;}#paginator{text-align: center;margin-bottom: 10px;}PreviousNext&amp;nbsp; &amp;nbsp;Page:  / window.onload = function() {var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/MonogramDesign_Reduced.pdf&#39;;var hidePaginator = &#34;&#34;;var pageScale = &#34;.9&#34;;var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;var pdfDoc = null,pageNum = 1,pageRendering = true,pageNumPending = null,scale = pageScale,canvas = document.</description>
     </item>
     
     <item>
