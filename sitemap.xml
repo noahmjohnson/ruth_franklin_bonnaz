@@ -8,9 +8,6 @@
     <loc>https://www.ruthfranklinbonnaz.com/categories/</loc>
     <lastmod>2020-05-10T11:25:05-04:00</lastmod>
   </url><url>
-    <loc>https://www.ruthfranklinbonnaz.com/</loc>
-    <lastmod>2020-05-10T11:25:05-04:00</lastmod>
-  </url><url>
     <loc>https://www.ruthfranklinbonnaz.com/categories/pdf/</loc>
     <lastmod>2020-05-10T11:25:05-04:00</lastmod>
   </url><url>
@@ -18,6 +15,9 @@
     <lastmod>2020-05-10T11:25:05-04:00</lastmod>
   </url><url>
     <loc>https://www.ruthfranklinbonnaz.com/posts/</loc>
+    <lastmod>2020-05-10T11:25:05-04:00</lastmod>
+  </url><url>
+    <loc>https://www.ruthfranklinbonnaz.com/</loc>
     <lastmod>2020-05-10T11:25:05-04:00</lastmod>
   </url><url>
     <loc>https://www.ruthfranklinbonnaz.com/tags/</loc>
@@ -41,5 +41,7 @@
     <loc>https://www.ruthfranklinbonnaz.com/posts/about/</loc>
   </url><url>
     <loc>https://www.ruthfranklinbonnaz.com/posts/bonniewilliams/</loc>
+  </url><url>
+    <loc>https://www.ruthfranklinbonnaz.com/tags/bonniewilliams/</loc>
   </url>
 </urlset>
