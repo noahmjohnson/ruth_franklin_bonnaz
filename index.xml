@@ -158,7 +158,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
     
     
         <item>
-        <title>Ruth Franklin&#39;s Video Instructional</title>
+        <title>Ruth Franklin&#39;s Instructional Video</title>
         <link>https://www.ruthfranklinbonnaz.com/posts/educationalvhs/</link>
         <pubDate>Sat, 09 May 2020 11:25:05 -0400</pubDate>
         
