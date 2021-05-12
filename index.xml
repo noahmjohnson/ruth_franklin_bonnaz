@@ -203,7 +203,7 @@ window.onload = function() {
 
 var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/ArtisticTouch_Reduced.pdf&#39;;
 var hidePaginator = &#34;&#34;;
-var pageScale = &#34;1.1&#34;;
+var pageScale = &#34;.6&#34;;
 
 
 var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
