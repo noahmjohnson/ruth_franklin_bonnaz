@@ -52,7 +52,7 @@ window.onload = function() {
 
 var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/ChainStitch_Reduced.pdf&#39;;
 var hidePaginator = &#34;&#34;;
-var pageScale = &#34;1.7&#34;;
+var pageScale = &#34;1&#34;;
 
 
 var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
@@ -163,7 +163,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
         <pubDate>Sat, 09 May 2020 11:25:05 -0400</pubDate>
         
         <guid>https://www.ruthfranklinbonnaz.com/posts/educationalvhs/</guid>
-        <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/educationalvhs/ -&lt;p&gt;The Artistic Touch School of Embroidery Video is designed to give the viewer all of the information needed to learn to operate a chain stitch embroidery machine. The video is a recording of Ruth Franklin herself and covers everything that was taught to her students in person.&lt;/p&gt;
+        <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/educationalvhs/ -&lt;p&gt;The Artistic Touch School of Embroidery Video gives all of the information needed to learn to operate a chain stitch embroidery machine. The video is a recording of Ruth Franklin herself and covers everything that was taught to her students in person.&lt;/p&gt;
 &lt;p&gt;The full 2hr instructional video can be found in it&amp;rsquo;s original quality below. It&amp;rsquo;s accompanying transcript is available for download as well.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
@@ -203,7 +203,7 @@ window.onload = function() {
 
 var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/ArtisticTouch_Reduced.pdf&#39;;
 var hidePaginator = &#34;&#34;;
-var pageScale = &#34;.6&#34;;
+var pageScale = &#34;.5&#34;;
 
 
 var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
@@ -347,7 +347,7 @@ window.onload = function() {
 
 var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/LetteringBook_Reduced.pdf&#39;;
 var hidePaginator = &#34;&#34;;
-var pageScale = &#34;.9&#34;;
+var pageScale = &#34;.5&#34;;
 
 
 var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
@@ -491,7 +491,7 @@ window.onload = function() {
 
 var url = &#34;https:\/\/www.ruthfranklinbonnaz.com\/&#34; + &#39;\/pdf\/MonogramDesign_Reduced.pdf&#39;;
 var hidePaginator = &#34;&#34;;
-var pageScale = &#34;.9&#34;;
+var pageScale = &#34;.5&#34;;
 
 
 var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
