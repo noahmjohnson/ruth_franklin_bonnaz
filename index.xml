@@ -327,6 +327,25 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
     
     
         <item>
+        <title>Ruth Script</title>
+        <link>https://www.ruthfranklinbonnaz.com/posts/ruthscript/</link>
+        <pubDate>Mon, 27 Dec 2021 11:25:05 -0400</pubDate>
+        
+        <guid>https://www.ruthfranklinbonnaz.com/posts/ruthscript/</guid>
+        <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/ruthscript/ -&lt;p&gt;“Ruth Script” is a beautiful hand-lettered script intended for chain stitch embroidery layouts. The font is inspired by the “Artistic Script” alphabet designed by Ruth Franklin.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Purchasing directly supports the cost of hosting this website as well as the many hours that went into making the font available from Ruth&amp;rsquo;s original material.&lt;/p&gt;
+&lt;p&gt;If you prefer to layout your designs by hand without the help of a font, you can reference the scanned version in &lt;a href=&#34;https://www.ruthfranklinbonnaz.com/posts/lettering&#34;&gt;The Lettering Book&lt;/a&gt; on &lt;em&gt;page 94&lt;/em&gt;. I&amp;rsquo;ve also designed a digital poster that can be printed at scale or imported into &lt;em&gt;procreate/photoshop/illustrator&lt;/em&gt;. You can download it for free &lt;a href=&#34;https://www.ruthfranklinbonnaz.com/images/ruthscript_reference.jpg&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ruthfranklinbonnaz.com/images/ruthscript_reference.jpg&#34;&gt;&lt;img src=&#34;https://www.ruthfranklinbonnaz.com/images/ruthscript_reference_thumb.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Ruth&amp;rsquo;s original alphabet included Upper and Lowercase characters only. This font set includes additional number characters, punctuation and common symbols.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Because the original letters was designed to be used in hand-drawn layouts, the letters were outline only. This font includes a filled version for more versatility.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ruthfranklinbonnaz.com/images/grotto_example_banner.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.ruthfranklinbonnaz.com/images/reunion_banner.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+- https://www.ruthfranklinbonnaz.com/posts/ruthscript/ - Artistic Touch Publications, Ruth E. Franklin</description>
+        </item>
+    
+    
+    
+        <item>
         <title>The Artistic Touch Lettering Book</title>
         <link>https://www.ruthfranklinbonnaz.com/posts/lettering/</link>
         <pubDate>Mon, 27 Dec 2021 11:25:05 -0400</pubDate>
@@ -775,12 +794,24 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
         
         <guid>https://www.ruthfranklinbonnaz.com/posts/specialmachines/</guid>
         <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/specialmachines/ -&lt;p&gt;The Cording, Braid &amp;amp; Special Machines Book is 122 pages long and covers the unique functionalities of the specialty Cornely machines. Ruth overviews the first-hand knowledge that she acquired from two French gentlemen who claimed to have been taught by Antoine Bonnaz himself.&lt;/p&gt;
-&lt;p&gt;This book gives an overview of the functionalities of the five Cornely machines types categorized as follows:&lt;/p&gt;
-&lt;p&gt;Group 1: Basic Universal Feed Machines. &lt;em&gt;&amp;ldquo;A&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;AB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;A2&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;AH2&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;B&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;C&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;E&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LE&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LEG&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LEGB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;BCH&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;ACH&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LCH&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LGCH&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;RE&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;K&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;KB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;L&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LG&amp;rdquo;,&lt;/em&gt; &lt;em&gt;&amp;ldquo;LGB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LT&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LTG&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;N&amp;rdquo;&lt;/em&gt;, and &lt;em&gt;&amp;ldquo;X.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Group 2: Universal Feed Machines with oscillating hook &amp;amp; bobbin. &lt;em&gt;&amp;ldquo;F&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;FD&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;FA&amp;rdquo;&lt;/em&gt;, and &lt;em&gt;&amp;ldquo;FBN.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Group 3: Numbered Cornely Machines that lock stitch, hemstitch, and satin stitch.&lt;/p&gt;
-&lt;p&gt;Group 4: Specialty Cornely Machines and as Ruth puts it &lt;em&gt;&amp;ldquo;they do very unusual things.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Group 5: Post-WWII redesign of Cornely Machines for the modern era. &lt;em&gt;Type 121&lt;/em&gt; and &lt;em&gt;Type 148&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This book gives an overview of the functionalities of the &lt;em&gt;five&lt;/em&gt; Cornely machines types categorized as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Group 1:&lt;/strong&gt;  Basic Universal Feed Machines. &lt;em&gt;&amp;ldquo;A&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;AB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;A2&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;AH2&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;B&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;C&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;E&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LE&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LEG&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LEGB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;BCH&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;ACH&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LCH&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LGCH&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;RE&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;K&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;KB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;L&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LG&amp;rdquo;,&lt;/em&gt; &lt;em&gt;&amp;ldquo;LGB&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LT&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;LTG&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;N&amp;rdquo;&lt;/em&gt;, and &lt;em&gt;&amp;ldquo;X.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Group 2:&lt;/strong&gt;  Universal Feed Machines with oscillating hook &amp;amp; bobbin. &lt;em&gt;&amp;ldquo;F&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;FD&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;FA&amp;rdquo;&lt;/em&gt;, and &lt;em&gt;&amp;ldquo;FBN.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Group 3:&lt;/strong&gt;  Numbered Cornely Machines that lock stitch, hemstitch, and satin stitch.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Group 4:&lt;/strong&gt;  Specialty Cornely Machines and as Ruth puts it &lt;em&gt;&amp;ldquo;they do very unusual things.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Group 5:&lt;/strong&gt;  Post-WWII redesign of Cornely Machines for the modern era. &lt;em&gt;Type 121&lt;/em&gt; and &lt;em&gt;Type 148&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;The end of the Special Machines book gives a sample of the contents of &lt;a href=&#34;https://www.ruthfranklinbonnaz.com/posts/lettering&#34;&gt;The Lettering Book&lt;/a&gt; as well.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.ruthfranklinbonnaz.com/images/specialmachinescloseup.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -917,6 +948,8 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 - https://www.ruthfranklinbonnaz.com/posts/specialmachines/ - Artistic Touch Publications, Ruth E. Franklin</description>
         </item>
+    
+    
     
     
     
