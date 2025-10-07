@@ -3,21 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.ruthfranklinbonnaz.com/posts/bonnaz/</loc>
-    <lastmod>2021-12-27T11:25:05-04:00</lastmod>
+    <loc>https://www.ruthfranklinbonnaz.com/posts/</loc>
+    <lastmod>2025-10-03T11:25:05-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://www.ruthfranklinbonnaz.com/posts/</loc>
-    <lastmod>2021-12-27T11:25:05-04:00</lastmod>
+    <loc>https://www.ruthfranklinbonnaz.com/posts/ruthfranklin/</loc>
+    <lastmod>2025-10-03T11:25:05-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.ruthfranklinbonnaz.com/</loc>
+    <lastmod>2025-10-03T11:25:05-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ruthfranklinbonnaz.com/posts/bonnaz/</loc>
     <lastmod>2021-12-27T11:25:05-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -80,12 +87,6 @@
   
   <url>
     <loc>https://www.ruthfranklinbonnaz.com/posts/bonniewilliams/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ruthfranklinbonnaz.com/posts/ruthfranklin/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
