@@ -5,7 +5,7 @@
     <description>Recent content on Ruth Franklin&#39;s Artistic Touch</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</copyright>
+    <copyright>Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</copyright>
     <lastBuildDate>Fri, 03 Oct 2025 11:25:05 -0400</lastBuildDate>
     
         <atom:link href="https://www.ruthfranklinbonnaz.com/index.xml" rel="self" type="application/rss+xml" />
@@ -210,7 +210,7 @@ confirms that Ruth had already relocated to Arkansas and moved her machines out 
 &lt;h3 id=&#34;update-100925&#34;&gt;Update 10/09/25&lt;/h3&gt;
 &lt;p&gt;Additional correspondence with Bonnie Williams, former student and friend of Ruth Franklin, has clarified the timeline surrounding Franklin’s move to Arkansas and the 1993 Mississippi River flood.&lt;/p&gt;
 &lt;p&gt;Ruth Franklin had already relocated to Arkansas before the flood and had moved out of her shop on South Broadway prior to the disaster. While the surrounding area was heavily affected, Bonnie Williams confirms that Ruth’s business itself was not directly damaged by floodwaters, though it remains unclear what became of her embroidery machines and other shop contents.&lt;/p&gt;
-- https://www.ruthfranklinbonnaz.com/posts/ruthfranklin/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</description>
+- https://www.ruthfranklinbonnaz.com/posts/ruthfranklin/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</description>
         </item>
     
     
@@ -357,7 +357,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 &lt;/script&gt;
 
-- https://www.ruthfranklinbonnaz.com/posts/bonnaz/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</description>
+- https://www.ruthfranklinbonnaz.com/posts/bonnaz/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</description>
         </item>
     
     
@@ -524,7 +524,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 &lt;/script&gt;
 
-- https://www.ruthfranklinbonnaz.com/posts/educationalvhs/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</description>
+- https://www.ruthfranklinbonnaz.com/posts/educationalvhs/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</description>
         </item>
     
     
@@ -535,16 +535,202 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
         <pubDate>Mon, 27 Dec 2021 11:25:05 -0400</pubDate>
         
         <guid>https://www.ruthfranklinbonnaz.com/posts/chainstitchfont/</guid>
-        <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/chainstitchfont/ -&lt;h3 id=&#34;ruth-script-font&#34;&gt;Ruth Script Font:&lt;/h3&gt;
+        <description>Ruth Franklin&#39;s Artistic Touch https://www.ruthfranklinbonnaz.com/posts/chainstitchfont/ -&lt;div id=&#39;product-component-1760223211878&#39;&gt;&lt;/div&gt;
+&lt;script type=&#34;text/javascript&#34;&gt;
+/*&lt;![CDATA[*/
+(function () {
+  var scriptURL = &#39;https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js&#39;;
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement(&#39;script&#39;);
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName(&#39;head&#39;)[0] || document.getElementsByTagName(&#39;body&#39;)[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: &#39;daykqc-jv.myshopify.com&#39;,
+      storefrontAccessToken: &#39;fc653c3c1b3bb4e4c7227d2e3164437f&#39;,
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent(&#39;product&#39;, {
+        id: &#39;7746349269061&#39;,
+        node: document.getElementById(&#39;product-component-1760223211878&#39;),
+        moneyFormat: &#39;%24%7B%7Bamount%7D%7D&#39;,
+        options: {
+  &#34;product&#34;: {
+    &#34;styles&#34;: {
+      &#34;product&#34;: {
+        &#34;@media (min-width: 601px)&#34;: {
+          &#34;max-width&#34;: &#34;100%&#34;,
+          &#34;margin-left&#34;: &#34;0&#34;,
+          &#34;margin-bottom&#34;: &#34;50px&#34;
+        },
+        &#34;text-align&#34;: &#34;left&#34;
+      },
+      &#34;title&#34;: {
+        &#34;font-size&#34;: &#34;26px&#34;
+      },
+      &#34;button&#34;: {
+        &#34;font-family&#34;: &#34;Gill Sans, sans-serif&#34;,
+        &#34;:hover&#34;: {
+          &#34;background-color&#34;: &#34;#0f9d56&#34;
+        },
+        &#34;background-color&#34;: &#34;#11ae5f&#34;,
+        &#34;:focus&#34;: {
+          &#34;background-color&#34;: &#34;#0f9d56&#34;
+        },
+        &#34;border-radius&#34;: &#34;9px&#34;,
+        &#34;padding-left&#34;: &#34;38px&#34;,
+        &#34;padding-right&#34;: &#34;38px&#34;
+      },
+      &#34;price&#34;: {
+        &#34;font-size&#34;: &#34;18px&#34;
+      },
+      &#34;compareAt&#34;: {
+        &#34;font-size&#34;: &#34;15.299999999999999px&#34;
+      },
+      &#34;unitPrice&#34;: {
+        &#34;font-size&#34;: &#34;15.299999999999999px&#34;
+      }
+    },
+    &#34;layout&#34;: &#34;horizontal&#34;,
+    &#34;contents&#34;: {
+      &#34;img&#34;: false,
+      &#34;imgWithCarousel&#34;: true,
+      &#34;description&#34;: true
+    },
+    &#34;width&#34;: &#34;100%&#34;,
+    &#34;text&#34;: {
+      &#34;button&#34;: &#34;Add to cart&#34;
+    }
+  },
+  &#34;productSet&#34;: {
+    &#34;styles&#34;: {
+      &#34;products&#34;: {
+        &#34;@media (min-width: 601px)&#34;: {
+          &#34;margin-left&#34;: &#34;-20px&#34;
+        }
+      }
+    }
+  },
+  &#34;modalProduct&#34;: {
+    &#34;contents&#34;: {
+      &#34;img&#34;: false,
+      &#34;imgWithCarousel&#34;: true,
+      &#34;button&#34;: false,
+      &#34;buttonWithQuantity&#34;: true
+    },
+    &#34;styles&#34;: {
+      &#34;product&#34;: {
+        &#34;@media (min-width: 601px)&#34;: {
+          &#34;max-width&#34;: &#34;100%&#34;,
+          &#34;margin-left&#34;: &#34;0px&#34;,
+          &#34;margin-bottom&#34;: &#34;0px&#34;
+        }
+      },
+      &#34;button&#34;: {
+        &#34;font-family&#34;: &#34;Gill Sans, sans-serif&#34;,
+        &#34;:hover&#34;: {
+          &#34;background-color&#34;: &#34;#0f9d56&#34;
+        },
+        &#34;background-color&#34;: &#34;#11ae5f&#34;,
+        &#34;:focus&#34;: {
+          &#34;background-color&#34;: &#34;#0f9d56&#34;
+        },
+        &#34;border-radius&#34;: &#34;9px&#34;,
+        &#34;padding-left&#34;: &#34;38px&#34;,
+        &#34;padding-right&#34;: &#34;38px&#34;
+      },
+      &#34;title&#34;: {
+        &#34;font-family&#34;: &#34;Helvetica Neue, sans-serif&#34;,
+        &#34;font-weight&#34;: &#34;bold&#34;,
+        &#34;font-size&#34;: &#34;26px&#34;,
+        &#34;color&#34;: &#34;#4c4c4c&#34;
+      },
+      &#34;price&#34;: {
+        &#34;font-family&#34;: &#34;Helvetica Neue, sans-serif&#34;,
+        &#34;font-weight&#34;: &#34;normal&#34;,
+        &#34;font-size&#34;: &#34;18px&#34;,
+        &#34;color&#34;: &#34;#4c4c4c&#34;
+      },
+      &#34;compareAt&#34;: {
+        &#34;font-family&#34;: &#34;Helvetica Neue, sans-serif&#34;,
+        &#34;font-weight&#34;: &#34;normal&#34;,
+        &#34;font-size&#34;: &#34;15.299999999999999px&#34;,
+        &#34;color&#34;: &#34;#4c4c4c&#34;
+      },
+      &#34;unitPrice&#34;: {
+        &#34;font-family&#34;: &#34;Helvetica Neue, sans-serif&#34;,
+        &#34;font-weight&#34;: &#34;normal&#34;,
+        &#34;font-size&#34;: &#34;15.299999999999999px&#34;,
+        &#34;color&#34;: &#34;#4c4c4c&#34;
+      }
+    },
+    &#34;text&#34;: {
+      &#34;button&#34;: &#34;Add to cart&#34;
+    }
+  },
+  &#34;option&#34;: {},
+  &#34;cart&#34;: {
+    &#34;styles&#34;: {
+      &#34;button&#34;: {
+        &#34;font-family&#34;: &#34;Gill Sans, sans-serif&#34;,
+        &#34;:hover&#34;: {
+          &#34;background-color&#34;: &#34;#0f9d56&#34;
+        },
+        &#34;background-color&#34;: &#34;#11ae5f&#34;,
+        &#34;:focus&#34;: {
+          &#34;background-color&#34;: &#34;#0f9d56&#34;
+        },
+        &#34;border-radius&#34;: &#34;9px&#34;
+      }
+    },
+    &#34;text&#34;: {
+      &#34;total&#34;: &#34;Subtotal&#34;,
+      &#34;button&#34;: &#34;Checkout&#34;
+    }
+  },
+  &#34;toggle&#34;: {
+    &#34;styles&#34;: {
+      &#34;toggle&#34;: {
+        &#34;font-family&#34;: &#34;Gill Sans, sans-serif&#34;,
+        &#34;background-color&#34;: &#34;#11ae5f&#34;,
+        &#34;:hover&#34;: {
+          &#34;background-color&#34;: &#34;#0f9d56&#34;
+        },
+        &#34;:focus&#34;: {
+          &#34;background-color&#34;: &#34;#0f9d56&#34;
+        }
+      }
+    }
+  }
+},
+      });
+    });
+  }
+})();
+/*]]&gt;*/
+&lt;/script&gt;
+&lt;h3 id=&#34;ruth-script-font&#34;&gt;Ruth Script Font:&lt;/h3&gt;
 &lt;p&gt;“Ruth Script” is a hand-lettered script font created for vintage-style designs and hand-operated chain stitch embroidery layouts. The font is inspired by the “Artistic Script” alphabet designed by Ruth Franklin in the mid-twentieth century. Her original alphabet was used as reference and extended characters/numbers were added for modern versatility.
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;The result is a revival font that has the quirks and feel of a hand-lettered alphabet but has been translated for use in modern design.&lt;/p&gt;
 &lt;h3 id=&#34;font-format&#34;&gt;Font Format:&lt;/h3&gt;
 &lt;p&gt;This font set includes two styles: &lt;em&gt;outline&lt;/em&gt; and &lt;em&gt;filled&lt;/em&gt;. It includes upper and lowercase letters, number characters, punctuation and some common symbols.&lt;/p&gt;
 &lt;p&gt;Please note that Ruth Script is a desktop font in the &lt;strong&gt;Open Type (.otf)&lt;/strong&gt; format and may not be compatible with proprietary computerized embroidery software.&lt;/p&gt;
 &lt;h3 id=&#34;support&#34;&gt;Support:&lt;/h3&gt;
 &lt;p&gt;Purchasing the font directly supports the cost of hosting this website, archiving additional embroidery reference as well as the many hours that went into making the font available from Ruth&amp;rsquo;s original material.
-&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.ruthfranklinbonnaz.com/images/grotto_example_banner.jpg?=1080px&#34; alt=&#34;&amp;amp;ldquo;Grotto Chainstitch Font&amp;amp;rdquo;&#34; title=&#34;Grotto Chainstitch Font&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.ruthfranklinbonnaz.com/images/reunion_banner.jpg?=1080px&#34; alt=&#34;&amp;amp;ldquo;Reunion Chain Stitch Font&amp;amp;rdquo;&#34; title=&#34;Reunion Chain Stitch Font&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://www.ruthfranklinbonnaz.com/images/example_web_1.jpg?=1080px&#34; alt=&#34;&amp;amp;ldquo;Long Beach Vintage Font&amp;amp;rdquo;&#34; title=&#34;Long Beach Vintage Font&#34;&gt;&lt;/p&gt;
@@ -552,7 +738,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 &lt;p&gt;If you prefer to layout your designs by hand without the help of a font, you can reference the scanned version in &lt;a href=&#34;https://www.ruthfranklinbonnaz.com/posts/lettering&#34;&gt;The Lettering Book&lt;/a&gt; on &lt;em&gt;page 94&lt;/em&gt;. I&amp;rsquo;ve also designed a digital poster that can be printed at scale or imported into &lt;em&gt;procreate/photoshop/illustrator&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;You can download it for free &lt;a href=&#34;https://drive.google.com/file/d/1kWAgv6xpi1Gua1BeGHC7IevbOGOKxbWh/view?usp=drive_link&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1kWAgv6xpi1Gua1BeGHC7IevbOGOKxbWh/view?usp=drive_link&#34; title=&#34; Chain Stitch Font&#34;&gt;&lt;img src=&#34;https://www.ruthfranklinbonnaz.com/images/ruthscript_reference_thumb.jpg?width=1080px&#34; alt=&#34;Chain Stitch Font Reference&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-- https://www.ruthfranklinbonnaz.com/posts/chainstitchfont/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</description>
+- https://www.ruthfranklinbonnaz.com/posts/chainstitchfont/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</description>
         </item>
     
     
@@ -699,7 +885,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 &lt;/script&gt;
 
-- https://www.ruthfranklinbonnaz.com/posts/lettering/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</description>
+- https://www.ruthfranklinbonnaz.com/posts/lettering/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</description>
         </item>
     
     
@@ -847,7 +1033,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 &lt;/script&gt;
 
-- https://www.ruthfranklinbonnaz.com/posts/emblems/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</description>
+- https://www.ruthfranklinbonnaz.com/posts/emblems/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</description>
         </item>
     
     
@@ -994,7 +1180,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 &lt;/script&gt;
 
-- https://www.ruthfranklinbonnaz.com/posts/monogramdesign/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</description>
+- https://www.ruthfranklinbonnaz.com/posts/monogramdesign/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</description>
         </item>
     
     
@@ -1141,7 +1327,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 &lt;/script&gt;
 
-- https://www.ruthfranklinbonnaz.com/posts/satinstitch/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</description>
+- https://www.ruthfranklinbonnaz.com/posts/satinstitch/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</description>
         </item>
     
     
@@ -1305,7 +1491,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 &lt;/script&gt;
 
-- https://www.ruthfranklinbonnaz.com/posts/specialmachines/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Embroidery Service</description>
+- https://www.ruthfranklinbonnaz.com/posts/specialmachines/ - Artistic Touch Publications, Ruth E. Franklin, Stitch-Rite Studio</description>
         </item>
     
     
