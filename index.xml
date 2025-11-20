@@ -721,16 +721,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 })();
 /*]]&gt;*/
 &lt;/script&gt;
-&lt;script&gt;
-document.addEventListener(&#39;click&#39;, function(e) {
-  if (e.target.matches(&#39;.shopify-buy__btn, .shopify-buy__btn--cart-checkout&#39;)) {
-    gtag(&#39;event&#39;, &#39;buy_button_click&#39;, {
-      event_category: &#39;engagement&#39;,
-      event_label: window.location.pathname
-    });
-  }
-});
-&lt;/script&gt;
 &lt;h3 id=&#34;ruth-script-font&#34;&gt;Ruth Script Font:&lt;/h3&gt;
 &lt;p&gt;“Ruth Script” is a hand-lettered script font created for vintage-style designs and hand-operated chain stitch embroidery layouts. The font is inspired by the “Artistic Script” alphabet designed by Ruth Franklin in the mid-twentieth century. Her original alphabet was used as reference and extended characters/numbers were added for modern versatility.
 &lt;br&gt;&lt;/p&gt;
