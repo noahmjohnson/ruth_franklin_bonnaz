@@ -581,7 +581,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
         &#34;font-size&#34;: &#34;26px&#34;
       },
       &#34;button&#34;: {
-        &#34;font-family&#34;: &#34;Gill Sans, sans-serif&#34;,
+        &#34;font-family&#34;: &#34;Arial&#34;,
         &#34;:hover&#34;: {
           &#34;background-color&#34;: &#34;#0f9d56&#34;
         },
@@ -639,7 +639,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
         }
       },
       &#34;button&#34;: {
-        &#34;font-family&#34;: &#34;Gill Sans, sans-serif&#34;,
+        &#34;font-family&#34;: &#34;Arial&#34;,
         &#34;:hover&#34;: {
           &#34;background-color&#34;: &#34;#0f9d56&#34;
         },
@@ -684,7 +684,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   &#34;cart&#34;: {
     &#34;styles&#34;: {
       &#34;button&#34;: {
-        &#34;font-family&#34;: &#34;Gill Sans, sans-serif&#34;,
+        &#34;font-family&#34;: &#34;Arial&#34;,
         &#34;:hover&#34;: {
           &#34;background-color&#34;: &#34;#0f9d56&#34;
         },
@@ -703,7 +703,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   &#34;toggle&#34;: {
     &#34;styles&#34;: {
       &#34;toggle&#34;: {
-        &#34;font-family&#34;: &#34;Gill Sans, sans-serif&#34;,
+        &#34;font-family&#34;: &#34;Arial&#34;,
         &#34;background-color&#34;: &#34;#11ae5f&#34;,
         &#34;:hover&#34;: {
           &#34;background-color&#34;: &#34;#0f9d56&#34;
